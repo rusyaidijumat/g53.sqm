@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="run" name="Ahmad Rusyaidi bin Jumat">
+
+	<target name="run" depends="compile">
+	</target>
+	
+	<target name="compile">
+		<javac srcdir="./" destdir="staging" />
+	</target>
+
+</project>
